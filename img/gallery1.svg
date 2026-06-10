@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <rect width="400" height="500" fill="#16213e"/>
+  <rect x="30" y="30" width="340" height="340" rx="8" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.3"/>
+  <polygon points="200,80 280,200 250,300 150,300 120,200" fill="none" stroke="#e94560" stroke-width="2" opacity="0.4"/>
+  <circle cx="200" cy="200" r="50" fill="none" stroke="#0f3460" stroke-width="3"/>
+  <text x="200" y="430" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" font-weight="bold">COMBATE URBANO</text>
+  <text x="200" y="455" font-family="Arial, sans-serif" font-size="12" fill="#b0b0c0" text-anchor="middle">Enfrentamientos tácticos</text>
+</svg>

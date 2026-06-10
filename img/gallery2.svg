@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <rect width="400" height="500" fill="#1a1a2e"/>
+  <circle cx="200" cy="200" r="100" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="200" cy="200" r="60" fill="none" stroke="#e94560" stroke-width="1" opacity="0.2"/>
+  <path d="M120,200 L200,140 L280,200 L240,300 L160,300 Z" fill="none" stroke="#0f3460" stroke-width="2"/>
+  <text x="200" y="430" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" font-weight="bold">OPERACIONES</text>
+  <text x="200" y="455" font-family="Arial, sans-serif" font-size="12" fill="#b0b0c0" text-anchor="middle">Misiones encubiertas</text>
+</svg>

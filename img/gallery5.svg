@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <rect width="400" height="500" fill="#16213e"/>
+  <circle cx="200" cy="180" r="60" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="140" cy="160" r="15" fill="#e94560" opacity="0.15"/>
+  <circle cx="260" cy="190" r="12" fill="#0f3460" opacity="0.3"/>
+  <circle cx="180" cy="210" r="10" fill="#e94560" opacity="0.1"/>
+  <line x1="80" y1="300" x2="320" y2="300" stroke="#e94560" stroke-width="0.5" opacity="0.2"/>
+  <text x="200" y="430" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" font-weight="bold">MULTIJUGADOR</text>
+  <text x="200" y="455" font-family="Arial, sans-serif" font-size="12" fill="#b0b0c0" text-anchor="middle">128 jugadores</text>
+</svg>
