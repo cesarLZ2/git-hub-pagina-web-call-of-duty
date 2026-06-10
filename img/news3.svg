@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
   <rect width="400" height="250" fill="#0f3460"/>
-  <rect x="120" y="100" width="160" height="60" rx="5" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.3"/>
-  <circle cx="140" cy="120" r="6" fill="none" stroke="#e94560" stroke-width="1" opacity="0.4"/>
-  <circle cx="260" cy="120" r="6" fill="none" stroke="#e94560" stroke-width="1" opacity="0.4"/>
-  <text x="200" y="145" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" opacity="0.7">OPERADORES</text>
+  <rect x="100" y="90" width="200" height="70" rx="6" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="120" cy="115" r="8" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="280" cy="115" r="8" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.4"/>
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle" opacity="0.5">DMZ</text>
+  <line x1="80" y1="190" x2="320" y2="190" stroke="#e94560" stroke-width="1" opacity="0.15"/>
 </svg>

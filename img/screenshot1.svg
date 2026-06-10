@@ -1,15 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
       <stop offset="100%" style="stop-color:#0f3460"/>
     </linearGradient>
   </defs>
   <rect width="600" height="400" fill="url(#bg)"/>
-  <circle cx="150" cy="200" r="80" fill="none" stroke="#e94560" stroke-width="2" opacity="0.3"/>
-  <circle cx="300" cy="180" r="120" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.2"/>
-  <circle cx="450" cy="220" r="60" fill="none" stroke="#0f3460" stroke-width="2" opacity="0.4"/>
-  <line x1="0" y1="350" x2="600" y2="280" stroke="#e94560" stroke-width="1" opacity="0.15"/>
-  <line x1="0" y1="370" x2="600" y2="310" stroke="#e94560" stroke-width="1" opacity="0.1"/>
-  <text x="300" y="210" font-family="Impact, sans-serif" font-size="32" fill="white" text-anchor="middle" opacity="0.8" letter-spacing="4">CAMPO DE BATALLA</text>
+  <circle cx="200" cy="180" r="100" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="400" cy="220" r="80" fill="none" stroke="#e94560" stroke-width="1" opacity="0.15"/>
+  <rect x="80" y="280" width="440" height="3" rx="1.5" fill="#e94560" opacity="0.3"/>
+  <rect x="120" y="300" width="360" height="2" rx="1" fill="#e94560" opacity="0.15"/>
+  <polygon points="300,80 500,200 400,320 200,320 100,200" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.2"/>
+  <polygon points="300,100 460,200 380,300 220,300 140,200" fill="none" stroke="#0f3460" stroke-width="1" opacity="0.2"/>
+  <text x="300" y="205" font-family="Impact, sans-serif" font-size="28" fill="white" text-anchor="middle" opacity="0.7" letter-spacing="6">MODERN WARFARE 4</text>
 </svg>

@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
-  <rect width="400" height="500" fill="#16213e"/>
-  <circle cx="200" cy="180" r="60" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.3"/>
-  <circle cx="140" cy="160" r="15" fill="#e94560" opacity="0.15"/>
-  <circle cx="260" cy="190" r="12" fill="#0f3460" opacity="0.3"/>
-  <circle cx="180" cy="210" r="10" fill="#e94560" opacity="0.1"/>
-  <line x1="80" y1="300" x2="320" y2="300" stroke="#e94560" stroke-width="0.5" opacity="0.2"/>
-  <text x="200" y="430" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" font-weight="bold">MULTIJUGADOR</text>
-  <text x="200" y="455" font-family="Arial, sans-serif" font-size="12" fill="#b0b0c0" text-anchor="middle">128 jugadores</text>
+  <rect width="400" height="500" fill="#1a1a2e"/>
+  <circle cx="130" cy="180" r="40" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="270" cy="160" r="35" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="200" cy="230" r="30" fill="none" stroke="#0f3460" stroke-width="2" opacity="0.5"/>
+  <circle cx="170" cy="140" r="20" fill="none" stroke="#0f3460" stroke-width="1" opacity="0.3"/>
+  <circle cx="240" cy="200" r="18" fill="none" stroke="#0f3460" stroke-width="1" opacity="0.3"/>
+  <line x1="130" y1="220" x2="130" y2="280" stroke="#e94560" stroke-width="0.5" opacity="0.2"/>
+  <line x1="270" y1="195" x2="270" y2="280" stroke="#e94560" stroke-width="0.5" opacity="0.2"/>
+  <text x="200" y="430" font-family="Impact, sans-serif" font-size="22" fill="white" text-anchor="middle" letter-spacing="3">MULTIJUGADOR</text>
+  <text x="200" y="455" font-family="Arial, sans-serif" font-size="11" fill="#b0b0c0" text-anchor="middle">Combate 128 jugadores</text>
 </svg>
