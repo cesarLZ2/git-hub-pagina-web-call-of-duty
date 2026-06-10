@@ -550,6 +550,61 @@ body {
   margin-bottom: 30px;
 }
 
+.platform-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.platform-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 30px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  border: 2px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  min-width: 160px;
+  justify-content: center;
+}
+
+.platform-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px var(--shadow);
+}
+
+.platform-btn.xbox:hover {
+  border-color: #107c10;
+  box-shadow: 0 10px 30px rgba(16, 124, 16, 0.3);
+}
+
+.platform-btn.playstation:hover {
+  border-color: #0070cc;
+  box-shadow: 0 10px 30px rgba(0, 112, 204, 0.3);
+}
+
+.platform-btn.pc:hover {
+  border-color: #e94560;
+  box-shadow: 0 10px 30px rgba(233, 69, 96, 0.3);
+}
+
+.platform-btn.switch:hover {
+  border-color: #e60012;
+  box-shadow: 0 10px 30px rgba(230, 0, 18, 0.3);
+}
+
+.platform-icon {
+  font-size: 1.5rem;
+}
+
 .newsletter-form {
   display: flex;
   gap: 10px;
@@ -700,6 +755,16 @@ body {
   .newsletter-form input {
     width: 100%;
     min-width: unset;
+  }
+
+  .platform-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .platform-btn {
+    width: 100%;
+    max-width: 300px;
   }
 
   .theme-toggle-container {
