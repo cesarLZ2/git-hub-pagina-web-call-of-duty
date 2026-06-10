@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-theme="dark">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,11 @@
 <body>
 
   <div class="theme-toggle-container">
-    <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">
+    <input type="checkbox" id="themeToggle" class="theme-toggle-input">
+    <label for="themeToggle" class="theme-toggle" aria-label="Cambiar tema">
       <span class="icon-light">☀️</span>
       <span class="icon-dark">🌙</span>
-    </button>
+    </label>
   </div>
 
   <header class="hero">
@@ -184,8 +185,8 @@
     <div class="container">
       <h2>¿LISTO PARA LA BATALLA?</h2>
       <p>Regístrate para recibir noticias y acceder a la beta cerrada</p>
-      <form class="newsletter-form" id="newsletterForm">
-        <input type="email" placeholder="Tu correo electrónico" required>
+      <form class="newsletter-form" action="mailto:contacto@modernwarfare.com" method="post" enctype="text/plain">
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
         <button type="submit">Suscribirse</button>
       </form>
     </div>
@@ -207,6 +208,5 @@
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
 </body>
 </html>

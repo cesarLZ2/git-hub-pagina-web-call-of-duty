@@ -8,12 +8,28 @@
   --accent-hover: #ff6b81;
   --border: #2a2a3e;
   --shadow: rgba(233, 69, 96, 0.3);
-  --gradient-1: #e94560;
-  --gradient-2: #0f3460;
   --glow: 0 0 20px rgba(233, 69, 96, 0.4);
 }
 
-[data-theme="light"] {
+.theme-toggle-input:checked ~ .theme-toggle .icon-light,
+.theme-toggle-input:checked ~ * .icon-light,
+body:has(.theme-toggle-input:checked) .icon-light {
+  display: none;
+}
+
+.theme-toggle-input:checked ~ .theme-toggle .icon-dark,
+.theme-toggle-input:checked ~ * .icon-dark,
+body:has(.theme-toggle-input:checked) .icon-dark {
+  display: inline;
+}
+
+.theme-toggle-input:checked ~ .hero,
+.theme-toggle-input:checked ~ .section,
+.theme-toggle-input:checked ~ .footer,
+.theme-toggle-input:checked ~ header,
+.theme-toggle-input:checked ~ section,
+.theme-toggle-input:checked ~ footer,
+.theme-toggle-input:checked ~ * {
   --bg-primary: #f0f0f5;
   --bg-secondary: #ffffff;
   --bg-card: #e8e8f0;
@@ -24,32 +40,6 @@
   --border: #d0d0da;
   --shadow: rgba(214, 48, 74, 0.25);
   --glow: 0 0 20px rgba(214, 48, 74, 0.2);
-}
-
-[data-theme="military"] {
-  --bg-primary: #0d1b0e;
-  --bg-secondary: #132415;
-  --bg-card: #1a301c;
-  --text-primary: #d4e8d4;
-  --text-secondary: #8aaa8a;
-  --accent: #c89f3c;
-  --accent-hover: #dbb84d;
-  --border: #2a4a2c;
-  --shadow: rgba(200, 159, 60, 0.3);
-  --glow: 0 0 20px rgba(200, 159, 60, 0.3);
-}
-
-[data-theme="neon"] {
-  --bg-primary: #0a0015;
-  --bg-secondary: #120022;
-  --bg-card: #1e0038;
-  --text-primary: #e0e0ff;
-  --text-secondary: #a0a0dd;
-  --accent: #00ff88;
-  --accent-hover: #33ffaa;
-  --border: #330066;
-  --shadow: rgba(0, 255, 136, 0.3);
-  --glow: 0 0 30px rgba(0, 255, 136, 0.3);
 }
 
 * {
@@ -110,6 +100,10 @@ body {
   font-size: 1.1rem;
 }
 
+.theme-toggle-input {
+  display: none;
+}
+
 .theme-toggle-container {
   position: fixed;
   top: 20px;
@@ -131,7 +125,6 @@ body {
   justify-content: center;
   transition: all 0.4s ease;
   box-shadow: var(--glow);
-  position: relative;
 }
 
 .theme-toggle:hover {
@@ -139,40 +132,21 @@ body {
   box-shadow: 0 0 30px var(--shadow);
 }
 
-.theme-toggle .icon-dark {
+.icon-dark {
   display: none;
 }
 
-[data-theme="dark"] .theme-toggle .icon-light {
+.theme-toggle-input:checked + .theme-toggle {
+  background: #e8e8f0;
+  border-color: #d0d0da;
+}
+
+.theme-toggle-input:checked + .theme-toggle .icon-light {
+  display: none;
+}
+
+.theme-toggle-input:checked + .theme-toggle .icon-dark {
   display: inline;
-}
-
-[data-theme="dark"] .theme-toggle .icon-dark {
-  display: none;
-}
-
-[data-theme="light"] .theme-toggle .icon-light {
-  display: none;
-}
-
-[data-theme="light"] .theme-toggle .icon-dark {
-  display: inline;
-}
-
-[data-theme="military"] .theme-toggle .icon-light {
-  display: none;
-}
-
-[data-theme="military"] .theme-toggle .icon-dark {
-  display: inline;
-}
-
-[data-theme="neon"] .theme-toggle .icon-light {
-  display: inline;
-}
-
-[data-theme="neon"] .theme-toggle .icon-dark {
-  display: none;
 }
 
 .hero {
@@ -183,6 +157,7 @@ body {
   position: relative;
   background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 50%, var(--bg-card) 100%);
   overflow: hidden;
+  transition: background 0.5s ease;
 }
 
 .hero::before {
@@ -193,7 +168,7 @@ body {
   width: 200%;
   height: 200%;
   background: radial-gradient(circle at 30% 50%, var(--accent) 0%, transparent 60%),
-              radial-gradient(circle at 70% 50%, var(--gradient-2) 0%, transparent 60%);
+              radial-gradient(circle at 70% 50%, #0f3460 0%, transparent 60%);
   opacity: 0.1;
   animation: heroGlow 10s ease-in-out infinite alternate;
 }
