@@ -1,36 +1,4 @@
-const themes = ['dark', 'light'];
-let currentTheme = 'dark';
-
-function applyTheme(theme) {
-  document.documentElement.setAttribute('data-theme', theme);
-  localStorage.setItem('cod-mw-theme', theme);
-  currentTheme = theme;
-}
-
-function toggleTheme() {
-  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-  applyTheme(newTheme);
-
-  const btn = document.getElementById('themeToggle');
-  btn.style.transform = 'rotate(360deg)';
-  setTimeout(() => { btn.style.transform = ''; }, 400);
-}
-
-function loadSavedTheme() {
-  const saved = localStorage.getItem('cod-mw-theme');
-  if (saved === 'dark' || saved === 'light') {
-    applyTheme(saved);
-  }
-}
-
 document.addEventListener('DOMContentLoaded', () => {
-  loadSavedTheme();
-
-  const toggleBtn = document.getElementById('themeToggle');
-  if (toggleBtn) {
-    toggleBtn.addEventListener('click', toggleTheme);
-  }
-
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
