@@ -11,7 +11,7 @@
   <circle cx="200" cy="100" r="40" fill="none" stroke="#1e90ff" stroke-width="0.5" opacity="0.15"/>
   <line x1="60" y1="160" x2="340" y2="160" stroke="#1e90ff" stroke-width="1" opacity="0.2"/>
   <line x1="60" y1="180" x2="340" y2="180" stroke="#1e90ff" stroke-width="0.5" opacity="0.15"/>
-  <text x="200" y="115" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="48" fill="white" text-anchor="middle" opacity="0.9">?</text>
+  <text x="200" y="115" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="48" fill="white" text-anchor="middle" opacity="0.9">⚓</text>
   <text x="200" y="210" font-family="Impact, sans-serif" font-size="20" fill="white" text-anchor="middle" letter-spacing="3">Nautical</text>
-  <text x="200" y="232" font-family="Arial, sans-serif" font-size="10" fill="#1e90ff" text-anchor="middle" letter-spacing="2" opacity="0.8">Mar�timo</text>
+  <text x="200" y="232" font-family="Arial, sans-serif" font-size="10" fill="#1e90ff" text-anchor="middle" letter-spacing="2" opacity="0.8">Marítimo</text>
 </svg>
